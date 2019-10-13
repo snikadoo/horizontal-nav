@@ -1,40 +1,46 @@
 html {
   box-sizing: border-box;
-  background-color: #79756f;
-  font-famil: Bevan, cursive;
+  background-color: #dbd6cf;
   line-height: 1.5;
   text-align: center;
-  border: 3px solid #e2e2e2;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #79756f;
+  margin: .3em;
+}
+
 h1 {
   color: #fff;
   margin: .3em;
+  font-family: Bevan, cursive;
 }
+
 .cards {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  text-align: center;
 }
 
-.cards a {
+.cards li {
   display: inline-block;
-  color: #fff;
   padding: .6em .5em .75em;
   background-color: #713837;
   border-radius: 10px;
+}
+
+nav a {
   text-decoration: none;
-  }
+  color: #fff;
+}
 
-  .cards a:hover {
-    background-color: #f33;
-  }
-
-{
-  border: 3px solid #e2e2e2;
+.cards a:hover {
+  background-color: #f33;
 }
