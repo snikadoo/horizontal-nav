@@ -15,16 +15,18 @@ html {
 body {
   background-color: #79756f;
   margin: 0;
+  padding-bottom: 1.5em;
+  padding-top: .6em;
 }
 
 h1 {
   color: #fff;
   margin: 0;
-  font-family: Bevan, sans-serif;
+  font-family: Bevan, serif;
 }
 
 .cards {
-  margin: 0;
+  margin: .3em;
   padding: 0;
   list-style-type: none;
 }
@@ -33,12 +35,13 @@ h1 {
   display: inline-block;
   padding: .6em .5em .75em;
   background-color: #713837;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
+  text-align: center;
 }
 
 .cards a:hover {
